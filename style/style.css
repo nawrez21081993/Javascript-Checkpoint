@@ -1,0 +1,142 @@
+
+
+
+body{background-image: linear-gradient(to top right, black, hsl(0, 100%, 25%));
+ }
+
+/*faire rond les pointes*/
+select, button, textarea, input
+{
+    border-radius: 5px;
+}
+
+textarea{
+	width: 13cm;
+	height: 2cm;
+}
+
+h1{color:white;
+	font-size: 40px;
+	
+	font-family: arial;
+	font-weight: normal;
+	position: center;
+	
+}
+
+.contact{
+	width: 200px;
+	height: 30px;
+}
+
+#ok{
+	width: 60px;
+	height: 30px;
+}	
+
+#gif{
+	width:100%; height:15cm; margin-left:none;
+}
+
+#feedback{
+	font-size: 15px;
+	font-family: time new roman;
+
+}
+
+.first{
+	color:white;
+	font-size: 25px;
+	padding: 50px;
+	font-family: arial;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.first:hover {
+	color:yellow;
+	text-decoration: none;
+}
+
+.first:active{
+color:blue;
+}
+
+
+a{text-decoration: none;
+	font-size: 17px;
+font-family: arial;
+color: blue;
+}
+
+
+a:hover{
+	color: yellow;
+	text-decoration:underline;
+}
+
+img{
+	width: 6cm;
+	height: 6cm;
+	padding: 20px;	
+}
+
+img:hover{
+	opacity: 0.5;
+	
+}
+
+
+
+
+.titre{background-image: url("https://pbs.twimg.com/media/D46e5_WW0AEkO3h.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  width: 100%;
+  height: 400px;
+  margin-left: 0cm;
+  background-filter
+  
+
+   /* filter: blur(8px);
+   padding: 400px;
+  -webkit-filter: blur(8px);
+filter: blur(5px); mettre image floue
+;*/		  
+}  
+
+
+
+.ombre{
+position: center;
+ font-size: 80px;
+ color: blue;
+font-family: times new roman;
+text-shadow: 5px 5px yellow;
+transform: translate(35%, -350%);
+
+}
+
+p{
+	font-size: 15px;
+	font-family: arial;
+	color: white;
+	font-weight: bold;
+}
+
+/*
+#first{
+	font-family: arial;
+	color: blue;
+text-decoration: none;
+font-size: 10px;
+}
+
+#first:hover{
+	text-decoration:underline;
+
+
+}*/
+
+/*--------------------------------------------------------------------------------------------*/
